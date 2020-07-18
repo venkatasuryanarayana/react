@@ -7,9 +7,6 @@
 	flex-direction: row;
 	justify-content: space-around;
 }
-
-
-
 .card1{
 	border: 2px solid #ddd;
 	padding: 1%;
@@ -20,7 +17,6 @@
 	border-radius: 10%;
 	background-color: #DBE9E9;
 }
-
 img{
 	width:70%;
 	border:2px solid black;
@@ -30,15 +26,11 @@ img{
 	margin-right: auto;
 	box-shadow: 5px 8px 9px red;
 }
-
 button{
 	width: 40%;
 	background-color: green;
 	height: 8%;
 }
-
-
-
 .card2{
 	border: 2px solid #ddd;
 	padding: 1%;
@@ -48,9 +40,7 @@ button{
 	text-align: center;
 	border-radius: 10%;
 	background-color: #DBE9E9;
-
 }
-
 .card3{
 	border: 2px solid #ddd;
 	padding: 1%;
@@ -62,20 +52,14 @@ button{
 	background-color: #DBE9E9;
 
 }
-
-
 @media only screen and (min-width: 320px) and (max-width:480px){
 	.card-view{
-
 	border:2px solid #ddd;
 	padding: 1%;
 	margin: 1%;
 	display: flex;
 	flex-wrap: wrap;
 }
-
-
-
 .card1{
 	border: 2px solid black;
 	padding: 1%;
