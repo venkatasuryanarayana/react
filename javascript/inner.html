@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<input type="button" value="innerhtml" onclick="showform()">
+		<input type="button" value="email" onclick="email()">
+		<div id="myinnerHtml"></div>
+		<div id="myinnerText"></div>
+	</form>
+
+</body>
+</html>
+<script type="text/javascript">
+	function showform() {
+		var html = "<h3>Name:</h3><input type='text' id='name'>";
+		var text = "hii surya";
+		document.getElementById('myinnerHtml').innerHTML=html;
+		document.getElementById('myinnerText').innerHTML=text;
+
+	}
+
+	function email(){
+		var html = "<h3>Name:</h3><input type='email' id='name'>";
+		var text = "hii venkat";
+		document.getElementById('myinnerHtml').innerHTML=html;
+		document.getElementById('myinnerText').innerHTML=text;
+	}
+</script>
